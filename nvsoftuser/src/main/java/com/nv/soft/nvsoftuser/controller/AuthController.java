@@ -11,6 +11,8 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
+
+@CrossOrigin(origins = "http://localhost:5173")
 @RequestMapping("/user")
 public class AuthController {
 
